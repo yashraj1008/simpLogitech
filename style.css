@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+span{
+    color: aqua;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover{
+    color: aqua;
+    transition: .5s;
+}
+
+.content{
+    /* color: white; */
+    /* height: 100vh; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center;  */
+}
+.f1,
+.f2
+{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* color: black; */
+    align-items: center;
+}
+
+.f3{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    background:black;
+    color: white
+
+}
+.card{
+    border-color: rgba(255, 255, 255, 0.404);
+    background: black;
+    
+}
+.gotop{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    
+}
+.gotop a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid aqua;
+    border-radius: 40px;
+}
+.gotop a:hover{
+    color: aqua;
+}
+.sec1{
+    color: white;
+}
+.h1{
+    color: white;
+}
+h3{
+    color: aqua;
+    text-align: center;
+}
+.yash{
+    color: aqua;
+    font-size: 30px;
+}
+h4{
+    font-size: 15px;
+    text-align: center;
+}
+.myName{
+    text-align: center;
+    word-spacing: 20px;
+}
+.card-deck{
+    /* background-color: rgba(180, 179, 179, 0.265); */
+}
+
+.card{
+    background-color: rgba(78, 78, 78, 0.281);
+    color: white;
+}
+.priceHead{
+    /* margin: 200px; */
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+.priceset{
+
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 50px;
+    
+}
+
+.f4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logi{
+    float: left;
+    filter: blur(10px);
+    transition: .3s;
+}
+.logi:hover{
+    filter: blur(0);
+    cursor: pointer;
+}
+
+.abt{
+    float: right;
+    margin: 100px;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 15px;
+}
+
+form{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+input[type=text],  textarea {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:rgba(0, 0, 0, 0.251);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border: 1px solid aqua;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  
+  input[type=submit]:hover {
+    background-color: aqua;
+  }
+
+  .f4{
+    min-height: 100vh;
+  }
+  
+  .cont {
+    margin-top: 50px;
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+    color: white;
+  }
